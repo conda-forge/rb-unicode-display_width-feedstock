@@ -1,5 +1,5 @@
 {% set name = "unicode-display_width" %}
-{% set version = "1.6.0" %}
+{% set version = "1.6.1" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 5cfcc08491f3978e8506b5527d9e871beeffe2b5dacc62df78fb86a9a28d6e22
+  sha256: 3d011d8ae44d35ddf1148bdf4de9fb4331dc53b5a39420c6336261823f65f7de
 
 build:
   noarch: generic
